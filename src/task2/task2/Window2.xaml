@@ -1,0 +1,17 @@
+﻿<Window x:Class="task2.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task2"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="number" HorizontalAlignment="Left" Height="55" Margin="130,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="number_TextChanged"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="45" Margin="35,369,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
+        <Button x:Name="next" Content="Button" HorizontalAlignment="Left" Height="45" Margin="675,369,0,0" VerticalAlignment="Top" Width="100" Click="next_Click"/>
+        <Label Content="введите число" HorizontalAlignment="Left" Height="35" Margin="130,169,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="notify" Content="Label" HorizontalAlignment="Left" Height="65" Margin="280,199,0,0" VerticalAlignment="Top" Width="280"/>
+
+    </Grid>
+</Window>

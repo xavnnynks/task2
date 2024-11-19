@@ -1,0 +1,20 @@
+﻿<Window x:Class="task2.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task2"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="sign" HorizontalAlignment="Left" Height="40" Margin="290,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" TextChanged="sign_TextChanged"/>
+        <Label x:Name="number1" Content="45" HorizontalAlignment="Left" Height="35" Margin="165,204,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="number2" Content="67" HorizontalAlignment="Left" Height="35" Margin="430,204,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label Content="=" HorizontalAlignment="Left" Height="35" Margin="520,204,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="res" Content="результат" HorizontalAlignment="Left" Height="35" Margin="655,204,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label Content="введите &#xD;&#xA;операцию" HorizontalAlignment="Left" Height="45" Margin="300,149,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button Content="Button" Margin="30,369,675,20" Click="Button_Click"/>
+        <Button x:Name="next" Content="Button" Margin="665,369,40,20" Click="next_Click"/>
+
+    </Grid>
+</Window>
